@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+}
+section, section.col-xs-12 {
+  margin: 0;
+  padding: 0;
+}
+a, a.active, a:active, a:focus, a:hover {
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer; }
+/* company background must sit above .folio-backgraound */
+.accordo {
+  background: url(../img/comp3.png) #92a2a5;
+}
+.vero {
+  background: url(../img/comp2b.png) #758284;
+}
+.trimble {
+  background: url(../img/comp3.png) #e3f09b;
+}
+.mint {
+  background: url(../img/comp2b.png) #2e4068;
+}
+.hubands {
+  background: url(../img/comp3.png) #fed52d;
+}
+/* .folio-backgraound must sit below company background */
+.folio-background {
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.content-side {
+  opacity: 0.5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 9em;
+  height: 55vh;
+}
+.accordo-content {
+  background-color: #fed52d;
+}
+.vero-content {
+  background-color: #758284;
+}
+.trimble-content {
+  background-color: #fed52d;
+}
+.mint-content {
+  background-color: #758284;
+}
+.hubands-content {
+  background-color: #fed52d;
+}
+.hiddentext {
+  display: none; 
+}
+
+/* MEDIA QUERIES MIN WIDTH 768px */
+@media only screen and (min-width: 768px) {
+.col-sm-6 {
+    width: 50%;
+}
+.content-side {
+  height: 100vh;
+}
+.folio-background {
+  background-size:75%;
+  background-attachment: fixed;
+  position: static;
+  height: 100vh;
+  transition: .7s ease-in-out;
+}
+}
+
+
