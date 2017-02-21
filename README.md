@@ -1,18 +1,15 @@
-# splitting
-My problem is below: 
+# splitting page.
+My current problem is below: 
 
-HTML and CSS splitting screens
+1: Read more (Mobile only)
 
-I have a divs sitting inside of a section tag;
- 
-<section class="test-pane1 col-xs-12">
-        <div>
-            <div class="col-xs-12 col-sm-6"></div>
-            <div class="col-xs-12 col-sm-6 content-side"></div>
-        </div>
-</section>
+Option 1 would be my prefered but I can't seem to work it out. If option 1 is not possible I could except option 2 but I can't get that quiet right.
 
-The section has a background image that roles over, each section has a different background image. They roles over each other 
-once bigger browser larger than 768px;
+Option1:
+	- I can't work out how to make the hidden text push down the div with the image in it, is this possible?
 
-My issue is because it sits in a section tag I end up with a gap around the divs. Any suggestions how I can remove this?
+Option2:
+	- I did however managed to make content overlay using the background colour on the paragraph, as suggested. I once again though can't seem select the right element to remove the padding.
+
+2: Read more:
+	
