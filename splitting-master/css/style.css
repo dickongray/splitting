@@ -46,6 +46,8 @@ a, a.active, a:active, a:focus, a:hover {
 }
 .hiddentext {
   display: none; 
+  background: #fed52d;
+  padding: 2em;
 }
 
 /* MEDIA QUERIES MIN WIDTH 768px */
@@ -62,5 +64,8 @@ a, a.active, a:active, a:focus, a:hover {
   position: static;
   height: 100vh;
   transition: .7s ease-in-out;
+}
+.read_more {
+  display: none; 
 }
 }
